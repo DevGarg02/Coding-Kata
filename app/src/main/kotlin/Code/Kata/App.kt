@@ -4,12 +4,12 @@
 package Code.Kata
 
 class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
+    fun greeting(): String {
+        return "hello dev!"
+    }
 }
 
 fun main() {
-    println(App().greeting)
+    val app = App()
+    println(app.greeting())
 }
